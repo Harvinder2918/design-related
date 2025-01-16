@@ -1,0 +1,23 @@
+<div class="overlay-container">
+  <div class="overlay"></div>
+</div>
+<style>
+.overlay-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('images/Homepage-photo.jpeg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+}
+</style>
